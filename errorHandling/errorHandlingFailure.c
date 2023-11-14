@@ -48,5 +48,6 @@ int main()
         printf("\n Username is invalid");
     }
 
+    printf("\n");
     return 0;
 }
