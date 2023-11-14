@@ -3,8 +3,8 @@
 #include <string.h>
 
 #define MAX_NAME_LENGTH 8
-#define MAX_LASTNAME_LENGTH 8
-#define MAX_AGE_LENGTH 2
+#define MAX_LASTNAME_LENGTH 10
+#define MAX_AGE_LENGTH 5
 #define MAX_HOBBIES 3
 #define MAX_HOBBY_LENGTH 40
 
@@ -27,6 +27,6 @@ void createProfile(char *name, char *lastName, char *age, char hobbies[MAX_HOBBI
     printf("Profile Created!\n");
     printf("Hi, my name is %s %s. I am %s years old and my hobbies are:\n", inputName, inputLastname, inputAge);
     for (int i = 0; i < MAX_HOBBIES; i++) {
-        printf("%s\n", inputHobbies[i]);
+        printf("%s ", inputHobbies[i]);
     }
 }

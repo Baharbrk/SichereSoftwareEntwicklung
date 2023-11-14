@@ -5,7 +5,7 @@
 int main() {
     char firstname[20]; // size of the firstname allowed for user input is larger than that in the createProfile function
     char lastname[20]; // size of the lastname allowed for user input is larger than that in the createProfile function
-    char age[2];
+    char age[5];
     char hobbies[MAX_HOBBIES][MAX_HOBBY_LENGTH];
 
     printf("\nPlease enter your first name: ");
@@ -17,7 +17,7 @@ int main() {
     lastname[strcspn(lastname, "\n")] = 0;
 
     printf("\nPlease enter your age: ");
-    fgets(age, 2, stdin);
+    fgets(age, 5, stdin);
     age[strcspn(age, "\n")] = 0;
 
     printf("\nEnter up to %d hobbies, one per line:\n", MAX_HOBBIES);
