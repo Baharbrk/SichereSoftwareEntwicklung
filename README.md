@@ -68,5 +68,3 @@ After setting up the compiler, you can compile and run your C program using thes
 
 Replace `yourprogram.c` with the actual filename of your C program. For any issues, ensure the compiler is correctly installed and your PATH is set up properly.
 ```
-
-This revised README provides more detailed steps, especially for the Windows setup, making it easier for users to follow and successfully run the C program.
