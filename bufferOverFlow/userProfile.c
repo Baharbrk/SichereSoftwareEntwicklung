@@ -25,8 +25,10 @@ void createProfile(char *name, char *lastName, char *age, char hobbies[MAX_HOBBI
     }
 
     printf("Profile Created!\n");
-    printf("Hi, my name is %s %s. I am %s years old and my hobbies are:\n", inputName, inputLastname, inputAge);
+    printf("Hi, my name is %s %s. I am %s years old and my hobbies are: ", inputName, inputLastname, inputAge);
     for (int i = 0; i < MAX_HOBBIES; i++) {
         printf("%s ", inputHobbies[i]);
     }
+    
+    printf("\n");
 }
