@@ -43,14 +43,14 @@ After setting up the compiler, you can compile and run your C program using thes
    - Press `Win + R`, type `cmd`, and press Enter.
 
 2. **Navigate to Your Program's Directory:**
-   - Use `cd` to navigate to the folder containing your C program (e.g., `cd path\to\your\folder`).
+   - Use `cd` to navigate to the folder containing your C program (e.g., `cd Downloads/SichereSoftwareEntwicklung/bufferOverFlow/`).
 
 3. **Compile the Program:**
-   - Compile the program with: `gcc -o myprogram yourprogram.c`
-   - Replace `yourprogram.c` with the actual name of your C file.
+   - Compile the program with: `gcc -o program bufferOverFlow.c userProfile.c` for bufferoverflow
+   - Compile the program with: `gcc -o program errorHandlingFailure.c` for errorHandling App
 
 4. **Run the Program:**
-   - Execute your program: `.\myprogram`
+   - Execute your program: `./program`
 
 ### MacOS
 
@@ -61,10 +61,9 @@ After setting up the compiler, you can compile and run your C program using thes
    - Use `cd` to move to the folder containing your C program.
 
 3. **Compile the Program:**
-   - Run: `gcc -o myprogram yourprogram.c`
+   - Run: `clang -o program bufferOverFlow.c userProfile.c` for bufferoverflow
+   - Run: `clang -o program errorHandlingFailure.c` for errorHandling App
+
 
 4. **Run the Program:**
-   - Execute your program: `./myprogram`
-
-Replace `yourprogram.c` with the actual filename of your C program. For any issues, ensure the compiler is correctly installed and your PATH is set up properly.
-```
+   - Execute your program: `./program`
