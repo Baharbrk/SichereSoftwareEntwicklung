@@ -3,8 +3,8 @@
 #include "userProfile.h"
 
 int main() {
-    char firstname[20]; // size of the firstname allowed for user input is larger than that in the createProfile function
-    char lastname[20]; // size of the lastname allowed for user input is larger than that in the createProfile function
+    char firstname[10]; // size of the firstname allowed for user input is larger than that in the createProfile function
+    char lastname[10]; // size of the lastname allowed for user input is larger than that in the createProfile function
     char age[5];
     char hobbies[MAX_HOBBIES][MAX_HOBBY_LENGTH];
 

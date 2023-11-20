@@ -3,7 +3,7 @@
 ```markdown
 # Running the C Program on Windows and MacOS
 
-This guide will assist you in running the provided C program on both Windows and MacOS.
+This guide will assist you in running the provided C program on both Windows and MacOS. clone the project from https://github.com/Baharbrk/SichereSoftwareEntwicklung
 
 ## Prerequisites
 
@@ -67,3 +67,8 @@ After setting up the compiler, you can compile and run your C program using thes
 
 4. **Run the Program:**
    - Execute your program: `./program`
+
+
+
+
+

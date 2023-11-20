@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define MAX_NAME_LENGTH 8
+#define MAX_NAME_LENGTH 10
 #define MAX_LASTNAME_LENGTH 10
 #define MAX_AGE_LENGTH 5
 #define MAX_HOBBIES 3
